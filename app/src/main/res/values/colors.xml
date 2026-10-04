@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dark Letterboxd Inspired Palette -->
+    <color name="bg_main">#14181C</color>
+    <color name="bg_card">#1E252D</color>
+    <color name="bg_card_elevated">#27313B</color>
+    <color name="bg_card_hover">#323E4B</color>
+    <color name="bg_bottom_nav">#12161A</color>
+    <color name="bg_header">#171D22</color>
+
+    <!-- Accent Colors -->
+    <color name="color_primary">#00E054</color>
+    <color name="color_primary_variant">#00B342</color>
+    <color name="color_primary_soft">#1A00E054</color>
+    
+    <!-- Star Rating Orange -->
+    <color name="color_star">#FF8000</color>
+    <color name="color_star_inactive">#4B5A69</color>
+    
+    <!-- AI Purple / Electric Violet -->
+    <color name="color_ai_accent">#9D4EDD</color>
+    <color name="color_ai_glow">#C77DFF</color>
+    <color name="color_ai_card">#241B35</color>
+    <color name="color_ai_badge">#3E2468</color>
+
+    <!-- Like / Heart Red -->
+    <color name="color_heart">#FF4B72</color>
+    <color name="color_heart_soft">#20FF4B72</color>
+
+    <!-- Typography -->
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#9AB0C2</color>
+    <color name="text_muted">#637583</color>
+    <color name="text_dark">#14181C</color>
+
+    <!-- Borders & Dividers -->
+    <color name="divider_color">#2C3642</color>
+    <color name="border_subtle">#232B34</color>
+
+    <!-- Status Colors -->
+    <color name="success">#00E054</color>
+    <color name="error">#FF453A</color>
+    <color name="warning">#FFD60A</color>
+    <color name="info">#30D158</color>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="transparent">#00000000</color>
+</resources>

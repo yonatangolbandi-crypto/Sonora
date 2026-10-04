@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">SONORA</string>
+    <string name="app_tagline">Letterboxd for Music</string>
+    <string name="app_description">Discover, rate, review and log the music you love.</string>
+
+    <!-- Navigation Tabs -->
+    <string name="nav_feed">פיד</string>
+    <string name="nav_discover">גילוי</string>
+    <string name="nav_ai">AI Sonora</string>
+    <string name="nav_diary">יומן</string>
+    <string name="nav_profile">פרופיל</string>
+
+    <!-- Auth -->
+    <string name="login">התחברות</string>
+    <string name="register">הרשמה</string>
+    <string name="username">שם משתמש</string>
+    <string name="email">אימייל</string>
+    <string name="password">סיסמה</string>
+    <string name="display_name">שם תצוגה</string>
+    <string name="bio">ביוגרפיה</string>
+    <string name="dont_have_account">אין לך חשבון? הירשם עכשיו</string>
+    <string name="already_have_account">יש לך כבר חשבון? התחבר</string>
+    <string name="logout">התנתק</string>
+    <string name="login_failed">שם משתמש או סיסמה שגויים</string>
+    <string name="register_success">נרשמת בהצלחה!</string>
+
+    <!-- Music Details & Actions -->
+    <string name="rate_review">דרג / כתוב ביקורת</string>
+    <string name="add_to_diary">הוסף ליומן מוזיקה</string>
+    <string name="add_to_list">הוסף לרשימה</string>
+    <string name="play_preview">נגן השמעה מוקדמת</string>
+    <string name="pause_preview">עצור השמעה</string>
+    <string name="tracklist">רשימת שירים</string>
+    <string name="community_reviews">ביקורות מהקהילה</string>
+    <string name="rating_distribution">התפלגות דירוגים</string>
+    <string name="write_review_hint">מה דעתך על המוזיקה הזו? שתף את החוויה שלך...</string>
+    <string name="relisten_question">האם זו האזנה חוזרת?</string>
+    <string name="submit_review">פרסם ביקורת</string>
+
+    <!-- Lists -->
+    <string name="lists">רשימות</string>
+    <string name="create_new_list">צור רשימה חדשה</string>
+    <string name="list_title">כותרת הרשימה</string>
+    <string name="list_description">תיאור הרשימה (אופציונלי)</string>
+    <string name="make_public">רשימה ציבורית לקהילה</string>
+    <string name="items_in_list">%d פריטים</string>
+
+    <!-- AI & Recommendations -->
+    <string name="ai_title">Sonora AI Recommender</string>
+    <string name="ai_subtitle">המלצות מותאמות אישית לפי הטעם המוזיקלי והדירוגים שלך</string>
+    <string name="ai_mood_prompt_hint">נסה: "רוק פסיכדלי שקט ללילה", "אנרגטי לריצה", "ג\'אז חורפי"</string>
+    <string name="ask_ai">בקש המלצה</string>
+    <string name="match_score">%d%% התאמה</string>
+    <string name="why_recommended">למה זה מומלץ עבורך?</string>
+
+    <!-- Social & Profile -->
+    <string name="follow">עקוב</string>
+    <string name="following">עוקב/ת</string>
+    <string name="followers">%d עוקבים</string>
+    <string name="following_count">%d נעקבים</string>
+    <string name="logged_count">%d האזנות</string>
+    <string name="reviews_count">%d ביקורות</string>
+    <string name="favorite_four">4 האהובים עליי</string>
+    <string name="edit_profile">ערוך פרופיל</string>
+
+    <!-- Common -->
+    <string name="cancel">ביטול</string>
+    <string name="save">שמור</string>
+    <string name="delete">מחק</string>
+    <string name="search_hint">חפש שירים, אלבומים, אמנים...</string>
+    <string name="filter_all">הכל</string>
+    <string name="filter_albums">אלבומים</string>
+    <string name="filter_songs">שירים</string>
+    <string name="filter_artists">אמנים</string>
+    <string name="notifications">התראות</string>
+    <string name="empty_feed">אין עדיין פעילות בפיד. עקוב אחרי חברים או דרג שירים ראשונים!</string>
+    <string name="empty_diary">יומן המוזיקה שלך ריק. חפש מוזיקה וסמן אותה כהאזנה!</string>
+</resources>

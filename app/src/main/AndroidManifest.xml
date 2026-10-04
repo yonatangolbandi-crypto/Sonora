@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Permissions -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" android:maxSdkVersion="32" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Sonora"
+        android:usesCleartextTraffic="true">
+
+        <!-- Splash Screen (Launcher) -->
+        <activity
+            android:name=".activities.SplashActivity"
+            android:exported="true"
+            android:theme="@style/Theme.Sonora">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Main Screen -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustPan" />
+
+        <!-- Authentication (Login / Register) -->
+        <activity
+            android:name=".activities.AuthActivity"
+            android:exported="false" />
+
+        <!-- Music Detail View -->
+        <activity
+            android:name=".activities.MusicDetailActivity"
+            android:exported="false" />
+
+        <!-- User Profile View -->
+        <activity
+            android:name=".activities.UserProfileActivity"
+            android:exported="false" />
+
+        <!-- Curated List Detail View -->
+        <activity
+            android:name=".activities.ListDetailActivity"
+            android:exported="false" />
+
+        <!-- Notifications Center -->
+        <activity
+            android:name=".activities.NotificationsActivity"
+            android:exported="false" />
+
+        <!-- Background Sync & AI Calculation Service -->
+        <service
+            android:name=".services.SonoraSyncService"
+            android:enabled="true"
+            android:exported="false" />
+
+        <!-- System & Connectivity Broadcast Receiver -->
+        <receiver
+            android:name=".services.SonoraBroadcastReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+                <action android:name="com.yonatan.sonora.ACTION_CUSTOM_SYNC" />
+            </intent-filter>
+        </receiver>
+
+    </application>
+
+</manifest>
